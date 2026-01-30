@@ -7,6 +7,7 @@ import {
   Instagram, Linkedin 
 } from 'lucide-react'
 import Image from 'next/image'
+import LightRays from '@/components/LightRays'
 
 export default function Home() {
   const cardsRef = useRef<HTMLDivElement>(null)
@@ -67,6 +68,17 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 px-6 z-10 overflow-visible">
+        {/* LightRays Background */}
+        <LightRays
+          raysOrigin="top-center"
+          raysColor="#0EADA7"
+          raysSpeed={0.8}
+          lightSpread={1.2}
+          rayLength={1.5}
+          followMouse={true}
+          mouseInfluence={0.15}
+        />
+        
         <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
           <h1 className="heading-serif text-5xl md:text-7xl lg:text-[6rem] leading-[1.1] mb-8 max-w-5xl opacity-0 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}>
             The Intelligent Future of <span className="text-primary">Asset</span> Auctions
