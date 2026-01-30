@@ -99,27 +99,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Visual System */}
-          <div className="relative w-full max-w-5xl mx-auto aspect-[16/9] md:aspect-[2/1] lg:aspect-[2.2/1] opacity-0 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>
-            {/* Central Node */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 md:w-96 aspect-video glass-panel rounded-2xl z-20 flex flex-col items-center justify-center border border-primary/30 shadow-glow-teal">
-              <div className="text-primary mb-2">
-                <Gavel size={32} />
-              </div>
-              <span className="heading-serif text-2xl font-bold">Open Mazad</span>
-              <div className="mt-4 flex gap-2">
-                <div className="h-1.5 w-12 bg-white/10 rounded-full overflow-hidden">
-                  <div className="h-full bg-primary w-2/3 animate-pulse" />
-                </div>
-                <div className="h-1.5 w-8 bg-white/10 rounded-full" />
-              </div>
-              <div className="absolute -bottom-12 flex gap-4 text-xs text-white/40 uppercase tracking-widest">
-                <span>Live</span>
-                <span>Secure</span>
-                <span>Smart</span>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
