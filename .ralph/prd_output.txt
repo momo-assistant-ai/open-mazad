@@ -1,0 +1,35 @@
+I have a few clarifying questions before generating the PRD:
+
+---
+
+**1. Theme Toggle Behavior**
+Should users be able to toggle between dark/light themes, or is this a permanent switch to light-only?
+- A) **Light-only (permanent)** - Remove dark theme entirely, app is always light
+- B) **Toggle (user choice)** - Add a theme switcher so users can choose dark or light  
+- C) **System preference** - Follow the user's OS/browser dark mode setting
+
+**2. Color Exceptions**
+Are there any components with custom colors that shouldn't change (e.g., brand colors, status indicators, charts)?
+- A) No exceptions - convert everything
+- B) Keep brand/accent colors the same
+- C) Keep status colors (success/error/warning) unchanged
+- D) I need to review what should stay fixed
+
+**3. Current Theming Setup**
+Does the project use CSS variables for theming, or are colors hardcoded throughout?
+- A) CSS variables already exist (using `--var()` syntax)
+- B) Mostly hardcoded in Tailwind classes
+- C) Not sure - please investigate the codebase
+
+**4. Scope Boundaries**
+What's included in "all styles"?
+- A) App pages only (dashboard, forms, user screens)
+- B) Everything (landing, marketing, all pages)
+- C) Specific pages only (you'll specify)
+
+**5. Design Reference**
+Do you have a light theme design/mockup, or should I derive the light colors from the existing dark palette?
+
+---
+
+Please answer these and I'll generate a precise PRD for the theme conversion.

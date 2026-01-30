@@ -4,3 +4,12 @@ node_modules
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+node_modules/
+.env.local
+*.log
+.DS_Store
+.ralph/last_*
+.ralph/screenshots/
+.ralph/archive/
+.backups/
+.claude/settings.json

@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        dark: '#0a0a0a',
+        dark: '#ffffff',
         primary: '#0EADA7',
         secondary: '#89C668',
         accent: '#E89E3D',
@@ -15,7 +15,7 @@ const config: Config = {
         inter: ['"Inter"', 'sans-serif'],
       },
       backgroundImage: {
-        'dot-grid': 'radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px)',
+        'dot-grid': 'radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px)',
       },
       backgroundSize: {
         'grid-32': '32px 32px',

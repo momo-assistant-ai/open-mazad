@@ -1,0 +1,46 @@
+{
+  "title": "Change Theme from Dark to Light",
+  "description": "Update the Open Mazad application from dark theme to light theme by changing colors, backgrounds, and component styles",
+  "stories": [
+    {
+      "id": "1",
+      "title": "Update global CSS colors",
+      "description": "Change the root CSS variables in globals.css from dark to light colors",
+      "testSteps": [
+        "Verify background color is now white/light instead of dark",
+        "Verify text colors are dark instead of white"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "2", 
+      "title": "Update Tailwind config colors",
+      "description": "Update tailwind.config.ts to use light theme as default",
+      "testSteps": [
+        "Verify tailwind config has light-friendly color palette"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "3",
+      "title": "Update page.tsx dark classes to light",
+      "description": "Replace dark: classes and dark color classes (bg-black, bg-gray-900, text-white) with light equivalents",
+      "testSteps": [
+        "Page background should be light/white",
+        "Text should be dark/black",
+        "Cards should have light backgrounds"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "4",
+      "title": "Update component styles",
+      "description": "Update LightRays and other components to work with light theme",
+      "testSteps": [
+        "LightRays should be visible against light background",
+        "All glassmorphism effects should work on light backgrounds"
+      ],
+      "status": "pending"
+    }
+  ]
+}

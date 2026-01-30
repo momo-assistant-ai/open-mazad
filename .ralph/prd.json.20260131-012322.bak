@@ -1,0 +1,57 @@
+{
+  "feature": {
+    "name": "light-theme-conversion",
+    "title": "Change Theme from Dark to Light",
+    "description": "Update the Open Mazad application from dark theme to light theme by changing colors, backgrounds, and component styles"
+  },
+  "stories": [
+    {
+      "id": "story-1",
+      "title": "Update global CSS colors",
+      "description": "Change the root CSS variables and body styles in globals.css from dark to light colors. Change bg-[#0a0a0a] to bg-white, text-white to text-gray-900.",
+      "testSteps": [
+        "Background color is now white/light",
+        "Text colors are dark/gray-900"
+      ],
+      "status": "pending",
+      "priority": 1,
+      "passes": false
+    },
+    {
+      "id": "story-2",
+      "title": "Update page.tsx hero section",
+      "description": "Replace dark background classes with light ones. Change bg-black, bg-gray-900 to bg-white, bg-gray-50. Change text-white to text-gray-900.",
+      "testSteps": [
+        "Hero section has light background",
+        "Text is readable dark color"
+      ],
+      "status": "pending",
+      "priority": 2,
+      "passes": false
+    },
+    {
+      "id": "story-3",
+      "title": "Update card and component backgrounds",
+      "description": "Change glass-panel and card backgrounds from dark transparent to light transparent. Update border colors for light theme.",
+      "testSteps": [
+        "Cards have light backgrounds with subtle shadows",
+        "Borders are visible on light background"
+      ],
+      "status": "pending",
+      "priority": 3,
+      "passes": false
+    },
+    {
+      "id": "story-4",
+      "title": "Update LightRays component for light theme",
+      "description": "Adjust LightRays colors to be visible and attractive on light background. May need darker or more saturated ray colors.",
+      "testSteps": [
+        "LightRays effect is visible on light background",
+        "Effect is visually appealing"
+      ],
+      "status": "pending",
+      "priority": 4,
+      "passes": false
+    }
+  ]
+}
