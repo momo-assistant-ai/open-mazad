@@ -81,8 +81,8 @@ export default function Home() {
           />
         </div>
         
-        {/* Gradient fade at bottom of hero */}
-        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-dark via-dark/80 to-transparent z-[5] pointer-events-none" />
+        {/* Gradient fade at bottom of hero - smooth transition */}
+        <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-dark/90 via-dark/40 via-30% to-transparent z-[5] pointer-events-none" />
         
         <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
           <h1 className="heading-serif text-5xl md:text-7xl lg:text-[6rem] leading-[1.1] mb-8 max-w-5xl opacity-0 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}>
