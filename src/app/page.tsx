@@ -79,6 +79,9 @@ export default function Home() {
           mouseInfluence={0.15}
         />
         
+        {/* Soft gradient divider - fades rays into dark */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-dark pointer-events-none" />
+        
         <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
           <h1 className="heading-serif text-5xl md:text-7xl lg:text-[6rem] leading-[1.1] mb-8 max-w-5xl opacity-0 animate-fade-in" style={{ animationDelay: '0.1s', animationFillMode: 'forwards' }}>
             The Intelligent Future of <span className="text-primary">Asset</span> Auctions
