@@ -68,16 +68,18 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 px-6 z-10 overflow-visible">
-        {/* LightRays Background */}
-        <LightRays
-          raysOrigin="top-center"
-          raysColor="#0EADA7"
-          raysSpeed={0.8}
-          lightSpread={1.2}
-          rayLength={1.5}
-          followMouse={true}
-          mouseInfluence={0.15}
-        />
+        {/* LightRays Background - Extended to reach features section */}
+        <div className="absolute inset-0 h-[150%] pointer-events-none">
+          <LightRays
+            raysOrigin="top-center"
+            raysColor="#0EADA7"
+            raysSpeed={0.8}
+            lightSpread={1.4}
+            rayLength={2.5}
+            followMouse={true}
+            mouseInfluence={0.15}
+          />
+        </div>
         
         {/* Gradient fade at bottom of hero */}
         <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-dark via-dark/80 to-transparent z-[5] pointer-events-none" />
