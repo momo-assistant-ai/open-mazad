@@ -119,41 +119,6 @@ export default function Home() {
                 <span>Smart</span>
               </div>
             </div>
-
-            {/* Satellite 1: Analytics */}
-            <div className="hidden md:flex absolute top-[20%] left-[10%] w-48 p-4 glass-panel rounded-xl flex-col gap-2 animate-float">
-              <div className="flex justify-between items-center mb-1">
-                <span className="text-xs text-white/50 uppercase">Real-time</span>
-                <Activity className="text-secondary" size={16} />
-              </div>
-              <div className="text-2xl font-mono">$2.4M</div>
-              <div className="h-1 w-full bg-white/5 rounded-full">
-                <div className="h-full w-3/4 bg-secondary" />
-              </div>
-            </div>
-
-            {/* Satellite 2: Bidders */}
-            <div className="hidden md:flex absolute bottom-[20%] right-[10%] w-44 p-4 glass-panel rounded-xl flex-col gap-2 animate-float-delay-1">
-              <div className="flex justify-between items-center">
-                <span className="text-xs text-white/50 uppercase">Active Bidders</span>
-                <div className="flex -space-x-2">
-                  <div className="w-6 h-6 rounded-full bg-white/20 border border-dark" />
-                  <div className="w-6 h-6 rounded-full bg-white/30 border border-dark" />
-                  <div className="w-6 h-6 rounded-full bg-primary/50 border border-dark flex items-center justify-center text-[8px]">+12</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Satellite 3: Security */}
-            <div className="hidden md:flex absolute bottom-[15%] left-[15%] w-40 p-3 glass-panel rounded-xl flex-row items-center gap-3 animate-float-delay-2">
-              <div className="p-2 bg-accent/10 rounded-lg text-accent">
-                <ShieldCheck size={20} />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xs font-bold">Verified</span>
-                <span className="text-[10px] text-white/50">KYC Complete</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>
